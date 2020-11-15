@@ -25,7 +25,7 @@ p {
     margin-bottom: 30px;
 }
 
-@media (max-width: 500px) {
+@media (min-width: 500px) {
     p {
         font-size: 25px;
     }
@@ -36,7 +36,7 @@ p {
     }
 }
 
-@media (min-width: 1000px) {
+@media (max-width: 1000px) {
     body {
         background-image: linear-gradient(45deg, #4472c7 0%, #78ddd8 100%);
     }
